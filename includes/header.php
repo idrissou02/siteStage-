@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Présentation</title>
     <link rel="stylesheet" href="/ressources/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <header>
     <h1>Bienvenue sur notre site</h1>
     <nav>
-        <a href="/index.php">Accueil</a>
-        <a href="/pages/presentation.php">Présentation</a>
-        <a href="/pages/catalog.php">Catalogue</a>
-        <a href="/pages/contact.php">Contact</a>
+        <a href="/stage/site/pages/accueil.php">Accueil</a>
+        <a href="/stage/site/pages/presentation.php">Présentation</a>
+        <a href="/stage/site/pages/catalogue.php">Catalogue</a>
+        <a href="/stage/site/pages/contact.php">Contact</a>
     </nav>
 </header>
+
