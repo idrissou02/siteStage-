@@ -1,4 +1,6 @@
-<?php include('\laragon\www\stage\site\includes\header.php'); ?>
+<?php 
+include('\laragon\www\stage\site\includes\header.php');
+?>
 <main>
     <section class="Bannieres">
         <img src="/ressources/images/Bannieres.jpg" alt="Bannieres Image"> <!-- pour l'image j'ai mis un bannieres.jpg mais c'est juste temporaire vous pouvez le changer -->
@@ -13,6 +15,8 @@
     </section>
     <section class="produits">
         <h2>Nos Produits</h2>
+<p>Découvrez nos produits de qualité en cliquant sur le lien ci-dessous.</p>
+<a href="produits.php">Voir les produits</a>
         
     </section>
     <section class="contact">
@@ -20,4 +24,5 @@
         <p>Accédez à notre page de contact pour plus d'informations.</p>
     </section>
 </main>
-<?php include('\laragon\www\stage\site\includes\footer.php'); ?>
+<?php
+include('\laragon\www\stage\site\includes\footer.php'); ?>

@@ -1,4 +1,6 @@
-<?php include('\laragon\www\stage\site\includes\header.php'); ?>
+<?php 
+require_once('db.php');
+include('\laragon\www\stage\site\includes\header.php');
 <main>
     <h2>Contactez-nous</h2>
     <form action="" method="post">
@@ -11,4 +13,5 @@
         <button type="submit">Envoyer</button>
     </form>
 </main>
-<?php include('\laragon\www\stage\site\includes\footer.php'); ?>
+
+include('\laragon\www\stage\site\includes\footer.php'); ?>

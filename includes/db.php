@@ -1,14 +1,18 @@
 <?php
-$servername = ""; // Adresse du serveur 
-$username = ""; // Nom d'utilisateur
-$password = ""; // Mot de passe
-$dbname = ""; // Nom de la base de données
+$host = "btssio.dedyn.io"; // Adresse du serveur 
+$username = "SOUHILM"; // Nom d'utilisateur
+$password = "05102005"; // Mot de passe
+$dbname = "SOUHILM_mon_site"; // Nom de la base de données
 
-// Connexion à la base de données
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Vérification de la connexion
-if ($conn->connect_error) {
-    die("Erreur de connexion à la base de données : " . $conn->connect_error);
+try {
+    // Création de la connexion PDO
+    $connexion = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
+    // Configuration des options PDO
+    $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    // Gestion des erreurs de connexion
+    echo 'Erreur de connexion : ' . $e->getMessage();
+    exit; // Arrête le script en cas d'erreur de connexion
 }
 ?>
+

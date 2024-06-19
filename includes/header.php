@@ -12,8 +12,9 @@
     <nav>
         <a href="/stage/site/pages/accueil.php">Accueil</a>
         <a href="/stage/site/pages/presentation.php">Présentation</a>
-        <a href="/stage/site/pages/catalogue.php">Catalogue</a>
+        <a href="/stage/site/pages/categorie.php">categorie</a>
         <a href="/stage/site/pages/contact.php">Contact</a>
+        <a href="/stage/site/pages/produits.php">Produit</a>
     </nav>
 </header>
 
