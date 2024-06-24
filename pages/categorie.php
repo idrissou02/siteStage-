@@ -1,6 +1,6 @@
 <?php 
 include('\laragon\www\stage\site\includes\header.php'); 
-include_once '\laragon\www\stage\site\includes\db.php';
+include_once('\laragon\www\stage\site\includes\db.php');
 
 // Vérifie si le formulaire a été soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
