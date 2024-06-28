@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Vérifie si $connexion est bien défini et non null
     if (isset($connexion) && $connexion !== null) {
         try {
-            // Prépare la requête SQL d'insertion
+            // Prépare la requête SQL 
             $insertSQL = $connexion->prepare("INSERT INTO categories (`titre`, `description`, `publier`) VALUES (:titre, :description, :publier)");
 
             // Lie les paramètres aux valeurs POST du formulaire

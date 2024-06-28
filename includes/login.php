@@ -16,7 +16,7 @@ if ($_POST) {
         // Vérifier le mot de passe
         if ($admin && password_verify($password, $admin['password'])) {
             $_SESSION['admin_logged_in'] = true;
-            header("Location: ajout_produit.php");
+            header("Location: /stage/site/pages/ajout_produit.php"); // Redirection après connexion réussie
             exit;
         } else {
             $error = "Nom d'utilisateur ou mot de passe incorrect";
@@ -34,7 +34,7 @@ if ($_POST) {
 </head>
 <body>
     <h2>Connexion Admin</h2>
-    <a href="accueil.php">Retour à la liste</a>
+    <a href="index.php">Retour à la liste</a>
     <?php if (isset($error)) { echo '<p style="color:red;">' . $error . '</p>'; } ?>
     <form method="post" action="login.php">
         <div>

@@ -16,7 +16,7 @@ include('\laragon\www\stage\site\includes\header.php');
     <section class="produits">
         <h2>Nos Produits</h2>
 <p>Découvrez nos produits de qualité en cliquant sur le lien ci-dessous.</p>
-<a href="produits.php">Voir les produits</a>
+<a href="\stage\site\pages\produits.php">Voir les produits</a>
         
     </section>
     <section class="contact">
